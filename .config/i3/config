@@ -272,8 +272,8 @@ bindsym XF86MonBrightnessDown exec light -U 10
 # bindsym F8 exec playerctl next
 
 # application rules
-        # firefox
 assign [class="Brave"] → 2
+assign [class="firefox"] → 2
 for_window [class="Min"] move to workspace 2
 for_window [class="Google-chrome"] move to workspace 2
 assign [class="DesktopEditors"] → 4
