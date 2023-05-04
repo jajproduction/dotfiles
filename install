@@ -46,7 +46,7 @@ printf "\e[1;32m#########################################\e[0m\n"
 printf "\e[1;32m## Installing GTK, ICONS, CURSOR, ETC. ##\e[0m\n"
 printf "\e[1;32m#########################################\e[0m\n"
 
-paru -S python-iwlib sardi-icons
+paru -S python-iwlib sardi-icons spotify 
 paru -S --aur preload picom-git light-git devour simple-mtpfs networkmanager-dmenu-git
 
 printf "\e[1;32m######################\e[0m\n"
@@ -66,7 +66,7 @@ printf "\e[1;32m#############################\e[0m\n"
 printf "\e[1;32m## Installing DEPENDENCIES ##\e[0m\n"
 printf "\e[1;32m#############################\e[0m\n"
 
-sudo pacman -S tlp tlp-rdw ufw qutebrowser rofi lxappearance udisks2 pcmanfm scrot nitrogen lxsession volumeicon xcb-util-cursor exa sxiv mpv pavucontrol plocate dunst pamixer conky alacritty blueberry trayer fish brightnessctl blueman stow zathura zathura-pdf-poppler vimb gnome-keyring emacs dmenu xdo xdotool fisher ripgrep tmux aria2 gparted network-manager-applet networkmanager polybar prettier python-pywal xclip fd xidlehook
+sudo pacman -S tlp tlp-rdw ufw qutebrowser rofi lxappearance udisks2 pcmanfm scrot nitrogen lxsession volumeicon xcb-util-cursor exa sxiv mpv pavucontrol plocate dunst pamixer conky alacritty blueberry trayer fish brightnessctl blueman stow zathura zathura-pdf-poppler vimb gnome-keyring emacs dmenu xdo xdotool fisher ripgrep tmux aria2 gparted network-manager-applet networkmanager polybar prettier python-pywal xclip fd xidlehook firefox discord
 sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 
 pip3 install psutil
