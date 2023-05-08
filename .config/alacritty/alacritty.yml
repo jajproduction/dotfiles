@@ -38,18 +38,18 @@ scrolling:
 # you can add comment if you have your own font
 font:
   normal:
-    family: Hurmit Nerd Font
+    family: Agave Nerd Font
     style: Normal
 
   bold:
-    family: Hurmit Nerd Font
+    family: Agave Nerd Font
     style: Bold
 
   italic:
-    family: Hurmit Nerd Font
+    family: Agave Nerd Font
     style: MediumItalic
 
-  size: 9 # Font Size
+  size: 10 # Font Size
 
   draw_bold_text_with_bright_colors: true
 
@@ -422,10 +422,9 @@ font:
   ### Solarized Dark ###
   solarized-dark: &solarized-dark # Default colors
     primary:
-      background: "#16161e"
+      background: "#0d0c0c"
       # background: "#001b26" # base03 (custom)
-      # foreground: "#839496" # base0
-      foreground: "#b2b2b2" # base0
+      foreground: "#839496" # base0
 
     # Cursor colors
     cursor:
