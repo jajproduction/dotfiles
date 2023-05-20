@@ -265,7 +265,7 @@ bindsym XF86MonBrightnessUp exec light -A 10
 bindsym XF86MonBrightnessDown exec light -U 10
 
 exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/google-chrome-stable'
-exec --no-startup-id i3-msg 'workspace 3; exec /usr/bin/emacs'
+# exec --no-startup-id i3-msg 'workspace 3; exec /usr/bin/emacs'
 
 # media keys
 # bindsym F7 exec playerctl play-pause
