@@ -59,14 +59,14 @@ printf "\e[1;32m#############################\e[0m\n"
 printf "\e[1;32m## Installing DEVELOPMENTS ##\e[0m\n"
 printf "\e[1;32m#############################\e[0m\n"
 
-sudo pacman -S openjdk11-src python-pip cmake python-jedi python-pylint clang
+sudo pacman -S python-pip cmake python-jedi python-pylint clang
 paru -S google-java-format min visual-studio-code-bin
 
 printf "\e[1;32m#############################\e[0m\n"
 printf "\e[1;32m## Installing DEPENDENCIES ##\e[0m\n"
 printf "\e[1;32m#############################\e[0m\n"
 
-sudo pacman -S tlp tlp-rdw ufw qutebrowser rofi lxappearance udisks2 pcmanfm scrot nitrogen lxsession volumeicon xcb-util-cursor exa sxiv mpv pavucontrol plocate dunst pamixer conky alacritty blueberry trayer fish brightnessctl blueman stow zathura zathura-pdf-poppler vimb gnome-keyring emacs dmenu xdo xdotool fisher ripgrep tmux aria2 gparted network-manager-applet networkmanager polybar prettier python-pywal xclip fd firefox discord sxhkd trash-cli flameshot
+sudo pacman -S tlp tlp-rdw ufw qutebrowser rofi lxappearance udisks2 pcmanfm scrot nitrogen lxsession volumeicon xcb-util-cursor exa sxiv mpv pavucontrol plocate dunst pamixer conky alacritty blueberry trayer fish brightnessctl blueman stow zathura zathura-pdf-poppler vimb gnome-keyring emacs dmenu xdo xdotool fisher ripgrep tmux aria2 gparted network-manager-applet networkmanager polybar prettier python-pywal xclip fd firefox discord sxhkd trash-cli flameshot i3 i3-wm qtile
 sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 
 pip3 install psutil
