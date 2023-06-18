@@ -527,7 +527,7 @@ font:
 # *tokyo-night
 # *tomorrow-night
 
-colors: *tokyo-night
+colors: *ayu-dark
 
 #######################################
 ##       END OF COLOR SCHEMES        ##

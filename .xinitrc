@@ -19,9 +19,9 @@ fi
 
 xidlehook --not-when-audio --not-when-fullscreen --timer 900 'systemctl suspend;i3lock -c 000000' '' &
 # redshift-gtk &
-# sxhkd -c $HOME/.config/i3/sxhkdrc &
+sxhkd -c $HOME/.config/i3/sxhkdrc &
 
 # only choose 1 window manager
-exec qtile start
-# exec i3
+# exec qtile start
+exec i3
 # startxfce4
