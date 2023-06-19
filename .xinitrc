@@ -23,5 +23,5 @@ sxhkd -c $HOME/.config/i3/sxhkdrc &
 
 # only choose 1 window manager
 # exec qtile start
-exec i3
-# startxfce4
+# exec i3
+startxfce4

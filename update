@@ -8,6 +8,7 @@ cp -rf ~/.tmux.statusline.conf ~/.dotfiles/
 cp -rf ~/.xinitrc ~/.dotfiles/
 
 cp -rf ~/.config/alacritty/ ~/.dotfiles/.config/
+cp -rf ~/.config/Code/User/settings.json ~/.dotfiles/.config/Code/User/
 cp -rf ~/.config/dunst ~/.dotfiles/.config/
 cp -rf ~/.config/fish/config.fish ~/.dotfiles/.config/fish/
 cp -rf ~/.config/i3/ ~/.dotfiles/.config/

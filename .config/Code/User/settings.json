@@ -1,0 +1,51 @@
+{
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Ayu Dark Bordered",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "fluent-icons",
+
+  "editor.fontSize": 15,
+  "editor.fontFamily": "Agave Nerd Font",
+  "editor.tabSize": 2,
+  "editor.fontLigatures": true,
+  "editor.cursorBlinking": "solid",
+  "editor.linkedEditing": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+
+  "window.menuBarVisibility": "toggle",
+  "window.zoomLevel": -1,
+
+  "files.associations": { "*.module": "php" },
+
+  "terminal.integrated.fontSize": 15,
+
+  "explorer.confirmDelete": false,
+  "explorer.excludeGitIgnore": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+
+  "prettier.arrowParens": "avoid",
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.bracketSpacing": true,
+  "prettier.semi": false,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "none",
+  "prettier.printWidth": 120,
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  },
+  "tailwindCSS.emmetCompletions": true
+}
