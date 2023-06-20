@@ -25,7 +25,6 @@
   "terminal.integrated.fontSize": 15,
 
   "explorer.confirmDelete": false,
-  "explorer.excludeGitIgnore": true,
   "explorer.confirmDragAndDrop": false,
   "explorer.compactFolders": false,
 
@@ -38,7 +37,7 @@
   "prettier.trailingComma": "none",
   "prettier.printWidth": 120,
   "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    // "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma"
