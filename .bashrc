@@ -40,3 +40,5 @@ alias youtube-dl-music='youtube-dl --extract-audio --audio-format mp3'
 alias checkupdates='checkupdates | less'
 
 # eval "$(starship init bash)"
+
+PATH=~/.console-ninja/.bin:$PATH

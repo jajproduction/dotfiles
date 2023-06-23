@@ -17,11 +17,8 @@ else
     xrandr --output "$intern" --off --output "$extern" --auto
 fi
 
-xidlehook --not-when-audio --not-when-fullscreen --timer 900 'systemctl suspend;i3lock -c 000000' '' &
-# redshift-gtk &
-sxhkd -c $HOME/.config/i3/sxhkdrc &
-
 # only choose 1 window manager
 # exec qtile start
-exec i3
+# exec i3
+exec bspwm
 # startxfce4

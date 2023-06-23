@@ -53,7 +53,7 @@ printf "\e[1;32m######################\e[0m\n"
 printf "\e[1;32m## Installing FONTS ##\e[0m\n"
 printf "\e[1;32m######################\e[0m\n"
 
-paru -S ttc-iosevka-aile ttf-cascadia-code ttf-fira-code ttf-fira-mono ttf-font-awesome ttf-inconsolata ttf-jetbrains-mono ttf-ubuntu-font-family otf-raleway ttf-ms-fonts noto-color-emoji-fontconfig adobe-source-code-pro-fonts adobe-source-han-sans-cn-fonts ttf-icomoon-feather ttf-ibmplex-mono-nerd otf-hermit-nerd ttf-agave-nerd ttf-nerd-fonts-symbols-mono ttf-nerd-fonts-symbols
+paru -S ttc-iosevka-aile ttf-cascadia-code ttf-fira-code ttf-fira-mono ttf-font-awesome ttf-inconsolata ttf-jetbrains-mono ttf-ubuntu-font-family otf-raleway ttf-ms-fonts noto-color-emoji-fontconfig adobe-source-code-pro-fonts adobe-source-han-sans-cn-fonts ttf-icomoon-feather ttf-ibmplex-mono-nerd otf-hermit-nerd ttf-agave-nerd ttf-nerd-fonts-symbols-mono ttf-nerd-fonts-symbols ttf-jetbrains-mono-nerd otf-material-icons-git
 
 printf "\e[1;32m#############################\e[0m\n"
 printf "\e[1;32m## Installing DEVELOPMENTS ##\e[0m\n"
@@ -66,7 +66,7 @@ printf "\e[1;32m#############################\e[0m\n"
 printf "\e[1;32m## Installing DEPENDENCIES ##\e[0m\n"
 printf "\e[1;32m#############################\e[0m\n"
 
-sudo pacman -S tlp tlp-rdw ufw qutebrowser rofi lxappearance udisks2 pcmanfm scrot nitrogen lxsession volumeicon xcb-util-cursor exa sxiv mpv pavucontrol plocate dunst pamixer alacritty blueberry trayer fish brightnessctl blueman stow zathura zathura-pdf-poppler vimb gnome-keyring emacs dmenu xdo xdotool fisher ripgrep tmux aria2 gparted network-manager-applet networkmanager polybar prettier python-pywal xclip fd firefox discord sxhkd trash-cli flameshot i3 i3-wm qtile
+sudo pacman -S tlp tlp-rdw ufw qutebrowser rofi lxappearance udisks2 pcmanfm scrot nitrogen lxsession volumeicon xcb-util-cursor exa sxiv mpv pavucontrol plocate dunst pamixer alacritty blueberry trayer fish brightnessctl blueman stow zathura zathura-pdf-poppler vimb gnome-keyring emacs dmenu xdo xdotool fisher ripgrep tmux aria2 gparted network-manager-applet networkmanager polybar prettier python-pywal xclip fd firefox discord sxhkd trash-cli flameshot i3 i3-wm qtile bspwm
 sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 
 pip3 install psutil

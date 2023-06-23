@@ -1,0 +1,34 @@
+#! /bin/sh
+
+# Applications to start on session start
+# Intended to be called from bspwmrc or similar wm startup script
+
+# keybindings daemon
+sxhkd &
+
+# window compositor
+picom -b &
+
+# notification daemon
+dunst &
+
+# blue light filter
+redshift &
+
+# set the wallpaper
+nitrogen --restore
+
+# suspend after 30 minutes of inactivity
+xidlehook --not-when-audio --not-when-fullscreen --timer 1800 'systemctl suspend-then-hibernate' '' & # automatically suspend after 30 minutes of inactivity
+
+# launch polybar
+$HOME/.config/polybar/launch.sh &
+
+# prevents middle click paste in terminal because it's annoying
+xmousepasteblock &
+
+# apply cursor theme
+xsetroot -cursor_name left_ptr &
+
+# session manager
+lxsession

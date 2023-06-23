@@ -26,7 +26,6 @@
 
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
-  "explorer.compactFolders": false,
 
   "prettier.arrowParens": "avoid",
   "prettier.singleQuote": true,
@@ -46,5 +45,8 @@
   "tailwindCSS.includeLanguages": {
     "plaintext": "html"
   },
-  "tailwindCSS.emmetCompletions": true
+  "tailwindCSS.emmetCompletions": true,
+  "explorer.compactFolders": false,
+  "explorer.expandSingleFolderWorkspaces": false,
+  "terminal.integrated.env.linux": {}
 }
