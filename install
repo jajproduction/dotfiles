@@ -60,7 +60,7 @@ printf "\e[1;32m## Installing DEVELOPMENTS ##\e[0m\n"
 printf "\e[1;32m#############################\e[0m\n"
 
 sudo pacman -S python-pip cmake python-jedi python-pylint clang
-paru -S google-java-format min visual-studio-code-bin
+paru -S paperview-git min visual-studio-code-bin
 
 printf "\e[1;32m#############################\e[0m\n"
 printf "\e[1;32m## Installing DEPENDENCIES ##\e[0m\n"
