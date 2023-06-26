@@ -2,6 +2,19 @@
 super + Escape
 	pkill -USR1 -x sxhkd
 
+super + shift + e
+	rofi -show emoji
+
+super + shift + n
+	rofi-nerdfonts
+
+super + shift + c
+	rofi -show calc
+
+# program launcher
+super + d
+	rofi -terminal alacritty -show drun -icon-theme "Papirus" -show-icons
+
 # show polybar
 alt + p
 	$HOME/.config/polybar/launch.sh
@@ -27,7 +40,7 @@ super + Return
 	alacritty
 
 # dmenu
-super + d
+super + @space
   dmenu_run -i -nb '#1a1b26' -nf '#a9b1d6' -sb '#7aa2f7' -sf '#1a1b26' -fn 'Agave Nerd Font-12'
 
 # multimedia keys
