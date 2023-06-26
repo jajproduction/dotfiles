@@ -31,4 +31,7 @@ xmousepasteblock &
 xsetroot -cursor_name left_ptr &
 
 # session manager
-lxsession
+lxsession &
+
+# screenshot tray
+flameshot &
