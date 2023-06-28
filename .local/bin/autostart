@@ -12,9 +12,6 @@ picom -b &
 # notification daemon
 dunst &
 
-# blue light filter
-redshift &
-
 # set the wallpaper
 nitrogen --restore
 

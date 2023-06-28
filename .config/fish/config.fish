@@ -1,5 +1,5 @@
 set -e fish_user_paths
-set -U fish_user_paths $HOME/.local/bin $HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH $fish_user_paths
+set -U fish_user_paths $HOME/.local/bin $HOME/flutter-sdk/flutter/bin $HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH $fish_user_paths
 
 set fish_greeting ""
 set fish_history ""

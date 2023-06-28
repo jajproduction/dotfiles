@@ -14,6 +14,8 @@ bspc config split_ratio 0.50
 bspc config borderless_monocle true
 bspc config gapless_monocle true
 
+bspc rule -a Alacritty state=floating
+bspc rule -a Pcmanfm state=floating
 bspc rule -a Zathura state=tiled
 bspc rule -a Brave-browser desktop='^2'
 bspc rule -a notion-app desktop='^3'

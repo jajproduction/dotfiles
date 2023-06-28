@@ -48,5 +48,6 @@
   "tailwindCSS.emmetCompletions": true,
   "explorer.compactFolders": false,
   "explorer.expandSingleFolderWorkspaces": false,
-  "terminal.integrated.env.linux": {}
+  "terminal.integrated.env.linux": {},
+  "dart.openDevTools": "flutter"
 }
