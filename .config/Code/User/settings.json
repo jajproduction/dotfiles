@@ -1,11 +1,14 @@
 {
+  "workbench.colorCustomizations": {
+    "editorError.foreground": "#00000000",
+    "editorWarning.foreground": "#00000000",
+    "editorInfo.foreground": "#00000000"
+  },
   "workbench.startupEditor": "none",
   "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "fluent-icons",
-
-  "editor.fontSize": 15,
-  "editor.fontFamily": "Agave Nerd Font",
+  "editor.fontFamily": "Cascadia Code",
   "editor.tabSize": 2,
   "editor.fontLigatures": true,
   "editor.cursorBlinking": "solid",
@@ -49,5 +52,10 @@
   "explorer.compactFolders": false,
   "explorer.expandSingleFolderWorkspaces": false,
   "terminal.integrated.env.linux": {},
-  "dart.openDevTools": "flutter"
+  "editor.fontSize": 15,
+
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.rulers": [120]
+  }
 }
