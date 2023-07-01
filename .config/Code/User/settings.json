@@ -1,9 +1,4 @@
 {
-  "workbench.colorCustomizations": {
-    "editorError.foreground": "#00000000",
-    "editorWarning.foreground": "#00000000",
-    "editorInfo.foreground": "#00000000"
-  },
   "workbench.startupEditor": "none",
   "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.iconTheme": "material-icon-theme",
@@ -57,5 +52,8 @@
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.rulers": [120]
-  }
+  },
+
+  "better-comments.multilineComments": true,
+  "better-comments.highlightPlainText": false
 }
