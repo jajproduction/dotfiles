@@ -1,0 +1,15 @@
+#!/bin/bash
+
+cd ~/vault
+gitstatus=`git status --porcelain`
+
+if [ ${#gitstatus} -ne 0 ]
+then
+
+  git add --all
+  sleep 3
+  git commit -m "sync: $gitstatus"
+  sleep 3
+  git push
+
+fi
