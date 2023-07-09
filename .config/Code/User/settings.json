@@ -1,7 +1,6 @@
 {
   "workbench.startupEditor": "none",
   "workbench.colorTheme": "Catppuccin Mocha",
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "fluent-icons",
   "editor.fontFamily": "Cascadia Code",
   "editor.tabSize": 2,
@@ -16,7 +15,6 @@
   },
 
   "window.menuBarVisibility": "toggle",
-  "window.zoomLevel": -1,
 
   "files.associations": { "*.module": "php" },
 
@@ -47,7 +45,6 @@
   "explorer.compactFolders": false,
   "explorer.expandSingleFolderWorkspaces": false,
   "terminal.integrated.env.linux": {},
-  "editor.fontSize": 15,
 
   "[dart]": {
     "editor.formatOnSave": true,
@@ -55,5 +52,8 @@
   },
 
   "better-comments.multilineComments": true,
-  "better-comments.highlightPlainText": false
+  "better-comments.highlightPlainText": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontSize": 15,
+  "window.zoomLevel": -1
 }
