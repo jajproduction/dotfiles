@@ -2,7 +2,6 @@
   "workbench.startupEditor": "none",
   "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.productIconTheme": "fluent-icons",
-  "editor.fontFamily": "Cascadia Code",
   "editor.tabSize": 2,
   "editor.fontLigatures": true,
   "editor.cursorBlinking": "solid",
@@ -54,6 +53,8 @@
   "better-comments.multilineComments": true,
   "better-comments.highlightPlainText": false,
   "workbench.iconTheme": "material-icon-theme",
-  "editor.fontSize": 15,
-  "window.zoomLevel": -1
+  "window.zoomLevel": -1,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 13,
+  "dart.closingLabels": false
 }
