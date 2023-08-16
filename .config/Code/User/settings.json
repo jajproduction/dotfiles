@@ -15,9 +15,9 @@
 
   "window.menuBarVisibility": "toggle",
 
-  "files.associations": { "*.module": "php" },
-
-  "terminal.integrated.fontSize": 15,
+  "files.associations": {
+    "*.module": "php"
+  },
 
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
@@ -56,5 +56,6 @@
   "window.zoomLevel": -1,
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 13,
-  "dart.closingLabels": false
+  "dart.closingLabels": false,
+  "terminal.integrated.fontSize": 12
 }
