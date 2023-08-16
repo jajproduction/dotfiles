@@ -2,7 +2,7 @@ export TERM="xterm-256color"
 export HISTCONTROL=ignoredups:erasedups
 export EDITOR="vim"
 export VISUAL="vim"
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH:$HOME/.local/bin:$HOME/.config/composer/vendor/bin:$HOME/.cargo/bin/"
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH:$HOME/.local/bin:$HOME/.config/composer/vendor/bin:$HOME/.cargo/bin/:$HOME/.console-ninja/.bin:$PATH:/opt/flutter/bin/"
 
 unset HISTFILE
 
@@ -40,5 +40,3 @@ alias youtube-dl-music='youtube-dl --extract-audio --audio-format mp3'
 alias checkupdates='checkupdates | less'
 
 # eval "$(starship init bash)"
-
-PATH=~/.console-ninja/.bin:$PATH

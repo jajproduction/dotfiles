@@ -17,7 +17,7 @@ cp -rf ~/.config/i3status/ ~/.dotfiles/.config/
 cp -rf ~/.config/mpv/ ~/.dotfiles/.config/
 cp -rf ~/.config/picom/ ~/.dotfiles/.config/
 cp -rf ~/.config/polybar/ ~/.dotfiles/.config/
-cp -rf ~/.config/qtile/scripts/ ~/.dotfiles/.config/
+cp -rf ~/.config/qtile/scripts/ ~/.dotfiles/.config/qtile/
 cp -rf ~/.config/qtile/config.py ~/.dotfiles/.config/qtile/
 cp -rf ~/.config/sxhkd/ ~/.dotfiles/.config/
 cp -rf ~/.config/starship.toml ~/.dotfiles/.config/
