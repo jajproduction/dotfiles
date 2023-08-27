@@ -17,10 +17,6 @@ else
     xrandr --output "$intern" --off --output "$extern" --auto
 fi
 
-brave &
-code &
-spotify &
-
 # only choose 1 window manager
 # exec qtile start
 # exec i3

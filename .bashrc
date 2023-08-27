@@ -2,7 +2,8 @@ export TERM="xterm-256color"
 export HISTCONTROL=ignoredups:erasedups
 export EDITOR="vim"
 export VISUAL="vim"
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH:$HOME/.local/bin:$HOME/.config/composer/vendor/bin:$HOME/.cargo/bin/:$HOME/.console-ninja/.bin:$PATH:/opt/flutter/bin/"
+export ANDROID_HOME=/opt/android-sdk
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH:$HOME/.local/bin:$HOME/.config/composer/vendor/bin:$HOME/.cargo/bin/:$HOME/.console-ninja/.bin:$PATH:/opt/flutter/bin/:$PATH:$ANDROID_HOME/tools:$PATH:$ANDROID_HOME/platform-tools"
 
 unset HISTFILE
 
