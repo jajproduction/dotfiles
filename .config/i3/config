@@ -256,6 +256,7 @@ exec --no-startup-id xsetroot -cursor_name left_ptr
 # exec --no-startup-id nitrogen --set-zoom-fill $HOME/Downloads/wallpapers/0383.png
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id xidlehook --not-when-audio --not-when-fullscreen --timer 900 'systemctl suspend;i3lock -c 000000' ''
+exec --no-startup-id sxhkd -c $HOME/.config/i3/sxhkdrc
 
 # Sreen brightness controls
 # bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness

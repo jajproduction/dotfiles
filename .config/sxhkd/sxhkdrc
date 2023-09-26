@@ -42,7 +42,7 @@ alt + b
 
 # lockscreen
 Pause
-  systemctl suspend
+  i3lock -c '000000' && systemctl suspend
 
 # terminal emulator
 super + Return

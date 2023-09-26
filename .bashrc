@@ -2,8 +2,7 @@ export TERM="xterm-256color"
 export HISTCONTROL=ignoredups:erasedups
 export EDITOR="vim"
 export VISUAL="vim"
-export ANDROID_HOME=/opt/android-sdk
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH:$HOME/.local/bin:$HOME/.config/composer/vendor/bin:$HOME/.cargo/bin/:$HOME/.console-ninja/.bin:$PATH:/opt/flutter/bin/:$PATH:$ANDROID_HOME/tools:$PATH:$ANDROID_HOME/platform-tools"
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH:$HOME/.local/bin:$HOME/.config/composer/vendor/bin:$HOME/.cargo/bin/:$HOME/.console-ninja/.bin:$PATH:$HOME/Flutter/flutter/bin/"
 
 unset HISTFILE
 
@@ -21,8 +20,8 @@ alias .='tmux new-session -s 1'
 alias ls='exa --color=always --group-directories-first --icons'
 alias la='exa -aG --color=always --group-directories-first --icons'
 alias ll='exa -l --color=always --group-directories-first --icons'
-alias vim='nvim'
-# alias vim='lvim'
+# alias vim='nvim'
+alias vim='lvim'
 alias em='/usr/bin/emacs -nw'
 # alias rm='rm -rf'
 alias rm='trash'
