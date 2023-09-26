@@ -253,7 +253,6 @@ exec --no-startup-id lxsession
 exec --no-startup-id picom -b
 exec --no-startup-id nm-applet
 exec --no-startup-id xsetroot -cursor_name left_ptr
-# exec --no-startup-id nitrogen --set-zoom-fill $HOME/Downloads/wallpapers/0383.png
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id xidlehook --not-when-audio --not-when-fullscreen --timer 900 'systemctl suspend;i3lock -c 000000' ''
 exec --no-startup-id sxhkd -c $HOME/.config/i3/sxhkdrc
@@ -261,8 +260,8 @@ exec --no-startup-id sxhkd -c $HOME/.config/i3/sxhkdrc
 # Sreen brightness controls
 # bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
 # bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
-bindsym XF86MonBrightnessUp exec light -A 10
-bindsym XF86MonBrightnessDown exec light -U 10
+bindsym XF86MonBrightnessUp exec changebrightness up
+bindsym XF86MonBrightnessDown exec changebrightness down
 
 # exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/google-chrome-stable'
 # exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/brave'
@@ -284,8 +283,7 @@ for_window [class="Spotify"] move to workspace 7
 
 # autolock
 exec --no-startup-id xautolock -corners -000 -time 10 -locker 'i3lock -c 000000' &
-bindsym $mod+Pause exec i3lock -c 000000 && systemctl suspend
-bindsym Pause exec i3lock -c 000000 
+bindsym Pause exec i3lock -c 000000 && systemctl suspend
 
 
 # sudo timedatectl set-ntp true
