@@ -31,8 +31,8 @@
   "prettier.trailingComma": "none",
   "prettier.printWidth": 120,
   "[php]": {
-    // "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    // "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma"
