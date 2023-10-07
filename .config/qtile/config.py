@@ -93,20 +93,14 @@ layouts = [
 ]
 
 colors = [
-    ["#1a1b26", "#1a1b26"],  # 0 BG
-    ["#32344a", "#444b6a"],  # 1 BLACK
-    ["#a9b1d6", "#a9b1d6"],  # 2 FG
-    ["#f7768e", "#ff7a93"],  # 3 RED
-    ["#9ece6a", "#b9f27c"],  # 4 GREEN
-    ["#e0af68", "#ff9e64"],  # 5 YELLOW
-    ["#7aa2f7", "#7da6ff"],  # 6 BLUE
-    ["#ad8ee6", "#bb9af7"],  # 7 MAGENTA
-    ["#449dab", "#0db9d7"],  # 8 CYAN
+    ["#000000", "#000000"],  # 0 BG
+    ["#a9b1d6", "#a9b1d6"],  # 1 FG
+    ["#9ece6a", "#b9f27c"],  # 2 GREEN
 ]
 
 widget_defaults = dict(
     font="Agave Nerd Font",
-    fontsize=12,
+    fontsize=11,
     padding=2,
     background=colors[0])
 
@@ -127,13 +121,13 @@ def init_widgets_list():
             rounded=False,
             highlight_color=colors[0],
             highlight_method="text",
-            this_current_screen_border=colors[8],
-            this_screen_border=colors[4],
+            this_current_screen_border=colors[1],
+            this_screen_border=colors[2],
             other_current_screen_border=colors[1],
-            other_screen_border=colors[4],
+            other_screen_border=colors[2],
             foreground=colors[2],
             background=colors[0],
-            hide_unused=True
+            hide_unused=False
         ),
         widget.TextBox(
             text="|",
@@ -160,7 +154,7 @@ def init_widgets_list():
             text_format="{num}",
             show_zero=True,
             padding=2,
-            foreground=colors[6],
+            foreground=colors[1],
             background=colors[0]
         ),
         widget.TextBox(
@@ -172,7 +166,7 @@ def init_widgets_list():
             fontsize=12,
         ),
         widget.WindowName(
-            foreground=colors[2],
+            foreground=colors[1],
             background=colors[0],
             max_chars=40,
             padding=0
@@ -200,7 +194,7 @@ def init_widgets_list():
         widget.TextBox(
             text="updates",
             background=colors[0],
-            foreground=colors[6],
+            foreground=colors[2],
             padding=3,
         ),
         widget.CheckUpdates(
@@ -208,8 +202,8 @@ def init_widgets_list():
             distro="Arch_checkupdates",
             display_format="{updates}",
             foreground=colors[0],
-            colour_have_updates=colors[6],
-            colour_no_updates=colors[6],
+            colour_have_updates=colors[2],
+            colour_no_updates=colors[2],
             mouse_callbacks={"Button1": lambda: qtile.cmd_spawn(terminal + " -e sudo pacman -Syu")},
             padding=5,
             background=colors[0],
@@ -223,9 +217,9 @@ def init_widgets_list():
             fontsize=12,
         ),
         widget.Pomodoro(
-            color_active=colors[4],
-            color_break=colors[5],
-            color_inactive=colors[2],
+            color_active=colors[2],
+            color_break=colors[1],
+            color_inactive=colors[1],
             length_long_break=10,
             length_pomodori=50,
             notification_on=True,
@@ -245,7 +239,7 @@ def init_widgets_list():
         widget.DF(
             format="{uf}{m}B",
             visible_on_warn=False,
-            foreground=colors[2],
+            foreground=colors[1],
             background=colors[0],
         ),
         widget.TextBox(
@@ -259,7 +253,7 @@ def init_widgets_list():
         widget.TextBox(
             text="BAT",
             background=colors[0],
-            foreground=colors[8],
+            foreground=colors[2],
             padding=2,
         ),
         widget.Battery(
@@ -267,7 +261,7 @@ def init_widgets_list():
             show_short_text=False,
             update_interval=50,
             padding=5,
-            foreground=colors[8],
+            foreground=colors[2],
             background=colors[0],
         ),
         widget.TextBox(
@@ -279,24 +273,13 @@ def init_widgets_list():
             fontsize=12,
         ),
         widget.Clock(
-            foreground=colors[2],
+            foreground=colors[1],
             background=colors[0],
             format="%a. %B %d - %I:%M %p"
         ),
         widget.Sep(
             linewidth=0,
             padding=5,
-            foreground=colors[0],
-            background=colors[0]
-        ),
-        widget.Systray(
-            background=colors[0],
-            icon_size=14,
-            padding=2
-        ),
-        widget.Sep(
-            linewidth=0,
-            padding=8,
             foreground=colors[0],
             background=colors[0]
         ),
@@ -319,8 +302,8 @@ def init_screens():
     return [
         # Screen(),
         # Remove the comments below if you want to use the built-in status bar of qtile
-        Screen(bottom=bar.Bar(widgets=init_widgets_screen1(), opacity=1.0, size=24)),
-        Screen(bottom=bar.Bar(widgets=init_widgets_screen2(), opacity=1.0, size=24)),
+        Screen(bottom=bar.Bar(widgets=init_widgets_screen1(), opacity=1.0, size=20)),
+        Screen(bottom=bar.Bar(widgets=init_widgets_screen2(), opacity=1.0, size=20)),
     ]
 
 
