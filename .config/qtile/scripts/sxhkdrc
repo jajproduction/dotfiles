@@ -1,47 +1,28 @@
-# multimedia keys
-super + Up
-	$HOME/.local/bin/changevolume up
-
-super + Down
-	$HOME/.local/bin/changevolume down
-
-super + Right
-	$HOME/.local/bin/changebrightness up
-
-super + Left
-	$HOME/.local/bin/changebrightness down
-
-# terminal emulator
-super + Return
-	alacritty
-
-# program launcher
-# super + d
-# 	rofi -show drun
-
-# kill conky
-super + shift + c
-  killall conky
-
-# dmenu
-super + d
-  dmenu_run -i -nb '#1a1b26' -nf '#a9b1d6' -sb '#7aa2f7' -sf '#1a1b26' -fn 'Agave Nerd Font-12'
-
-# dmscript-edit (edit config file)
-super + s
-	$HOME/.local/bin/dmscript-edit
-
-# dmscript-browse (quick browse)
-super + shift + b 
-	$HOME/.local/bin/dmscript-browse
-
-# dmscript-colorscheme (choose colorscheme)
-super + c 
-	$HOME/.local/bin/dmscript-colorscheme
-
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
+
+# file manager
+super + e
+  pcmanfm
+
+# powermenu
+super + x
+  powermenu
+
+# rofi
+super + shift + e
+	rofi -show emoji
+
+super + shift + n
+	rofi-nerdfonts
+
+super + shift + c
+	rofi -show calc
+
+# program launcher
+super + d
+	rofi -terminal alacritty -show drun -icon-theme "Papirus" -show-icons
 
 # show polybar
 alt + p
@@ -60,12 +41,26 @@ alt + b
   dunstify $(acpi)
 
 # lockscreen
-alt + shift + l
-	betterlockscreen -l
+Pause
+  i3lock -c '000000' && systemctl suspend
 
-ctrl + alt + l
-  systemctl suspend;i3lock -c 000000
+# terminal emulator
+super + Return
+	alacritty
 
-# display conky
-alt + c 
-	conky -c ~/.config/qtile/scripts/conkyrc
+# dmenu
+super + @space
+  dmenu_run -i -nb '#1a1b26' -nf '#a9b1d6' -sb '#7aa2f7' -sf '#1a1b26' -fn 'Agave Nerd Font-12'
+
+# multimedia keys
+super + Up
+	$HOME/.local/bin/changevolume up
+
+super + Down
+	$HOME/.local/bin/changevolume down
+
+super + Right
+	$HOME/.local/bin/changebrightness up
+
+super + Left
+	$HOME/.local/bin/changebrightness down
