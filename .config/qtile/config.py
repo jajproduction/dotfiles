@@ -30,14 +30,16 @@ keys = [
     Key([mod], "b", lazy.spawn(browser)),
     Key([mod], "n", lazy.spawn(editor)),
     Key([mod], ret, lazy.spawn(terminal)),
-    Key([mod, s], "f", lazy.spawn(file_manager)),
+    Key([mod], "e", lazy.spawn(file_manager)),
     Key([ctrl, s], ret, lazy.spawn(screenshot)),
+    Key([mod, s], "e", lazy.spawn('rofi -show emoji')),
+    Key([mod, s], "c", lazy.spawn('rofi -show calc')),
 
     # ROFI
     Key([mod, s], "d", lazy.spawn("rofi -show drun")),
 
     # QTILE
-    Key([mod], "x", lazy.shutdown()),  # LOGOUT
+    Key([mod], "x", lazy.spawn('powermenu')),  # LOGOUT
     Key([mod], "q", lazy.window.kill()),  # KILL WINDOW
     Key([mod, "shift"], "r", lazy.restart()),  # RESTART
     Key([mod], "Tab", lazy.next_layout()),  # CHANGE LAYOUTS
@@ -55,7 +57,7 @@ keys = [
 
     # SWITCH KEYBOARD FOCUS (PROJECTOR/MONITOR)
     Key([mod], "w", lazy.to_screen(0)),
-    Key([mod], "e", lazy.to_screen(1)),
+    Key([mod], "r", lazy.to_screen(1)),
 
     # SWITCH FOCUS (PROJECTOR/MONITOR)
     Key([mod], "period", lazy.next_screen()),
@@ -280,6 +282,17 @@ def init_widgets_list():
         widget.Sep(
             linewidth=0,
             padding=5,
+            foreground=colors[0],
+            background=colors[0]
+        ),
+        widget.Systray(
+            background=colors[0],
+            icon_size=14,
+            padding=2
+        ),
+        widget.Sep(
+            linewidth=0,
+            padding=8,
             foreground=colors[0],
             background=colors[0]
         ),
