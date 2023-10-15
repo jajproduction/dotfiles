@@ -45,12 +45,12 @@ keys = [
     Key([mod], "Tab", lazy.next_layout()),  # CHANGE LAYOUTS
 
     # WINDOWS CONTROLS
-    Key([mod], "j", lazy.layout.down()),
-    Key([mod], "k", lazy.layout.up()),
+    Key([mod], "h", lazy.layout.down()),
+    Key([mod], "l", lazy.layout.up()),
     Key([mod, s], "j", lazy.layout.shuffle_down(), lazy.layout.section_down()),
     Key([mod, s], "k", lazy.layout.shuffle_up(), lazy.layout.section_up()),
-    Key([mod], "l", lazy.layout.grow_right(), lazy.layout.grow(), lazy.layout.increase_ratio(), lazy.layout.delete()),
-    Key([mod], "h", lazy.layout.grow_left(), lazy.layout.shrink(), lazy.layout.decrease_ratio(), lazy.layout.add()),
+    Key([mod, s], "l", lazy.layout.grow_right(), lazy.layout.grow(), lazy.layout.increase_ratio(), lazy.layout.delete()),
+    Key([mod, s], "h", lazy.layout.grow_left(), lazy.layout.shrink(), lazy.layout.decrease_ratio(), lazy.layout.add()),
     Key([mod], "m", lazy.layout.maximize()),
     Key([mod], "f", lazy.window.toggle_floating()),
     Key([mod], "space", lazy.window.toggle_fullscreen()),
