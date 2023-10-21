@@ -16,7 +16,8 @@ dunst &
 nitrogen --restore
 
 # suspend after 30 minutes of inactivity
-xidlehook --not-when-audio --not-when-fullscreen --timer 1800 'systemctl suspend-then-hibernate' '' & # automatically suspend after 30 minutes of inactivity
+# automatically suspend after 30 minutes of inactivity
+xidlehook --not-when-audio --not-when-fullscreen --timer 1800 'systemctl suspend-then-hibernate;i3lock -c 000000' '' &
 
 # launch polybar
 $HOME/.config/polybar/launch.sh &

@@ -226,7 +226,7 @@ def init_widgets_list():
             length_pomodori=50,
             notification_on=True,
             num_pomodori=1,
-            prefix_active='stadi ',
+            prefix_active='work ',
             prefix_long_break='BREAK ',
             update_interval=1
         ),

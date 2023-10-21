@@ -18,6 +18,7 @@ bspc config gapless_monocle true
 # bspc rule -a Pcmanfm state=floating
 bspc rule -a Zathura state=tiled
 bspc rule -a Brave-browser desktop='^2'
+bspc rule -a Chromium desktop='^2'
 bspc rule -a firefox desktop='^2'
 bspc rule -a Pcmanfm desktop='^3'
 bspc rule -a Spotify desktop='^7'
