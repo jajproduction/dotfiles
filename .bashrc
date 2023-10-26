@@ -2,7 +2,7 @@ export TERM="xterm-256color"
 export HISTCONTROL=ignoredups:erasedups
 export EDITOR="vim"
 export VISUAL="vim"
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH:$HOME/.local/bin:$HOME/.config/composer/vendor/bin:$HOME/.cargo/bin/:$HOME/.console-ninja/.bin:$PATH:$HOME/Flutter/flutter/bin/:$PATH:$HOME/.pub-cache/bin"
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH:$HOME/.local/bin:$HOME/.config/composer/vendor/bin:$HOME/.cargo/bin/:$HOME/.console-ninja/.bin:$PATH:$HOME/Flutter/flutter/bin/:$PATH:$HOME/.pub-cache/bin:$PATH:/opt/google/chrome"
 
 unset HISTFILE
 
