@@ -54,10 +54,8 @@
   "better-comments.multilineComments": true,
   "better-comments.highlightPlainText": false,
   "workbench.iconTheme": "material-icon-theme",
-  "window.zoomLevel": -1,
   "editor.fontFamily": "JetBrains Mono",
-  "editor.fontSize": 13,
   "dart.closingLabels": false,
-  "terminal.integrated.fontSize": 12,
-  "dart.lineLength": 120
+  "dart.lineLength": 120,
+  "window.zoomLevel": -1
 }
