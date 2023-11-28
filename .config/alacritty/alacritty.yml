@@ -20,10 +20,9 @@ window:
   padding:
     x: 5
     y: 5
-  dynamic_padding:
-    true
+  dynamic_padding: true
 
-    # opacity: 0.90
+  opacity: 0.95
 
   title: Alacritty
   dynamic_title: false
@@ -39,18 +38,18 @@ scrolling:
 # you can add comment if you have your own font
 font:
   normal:
-    family: CaskaydiaCove Nerd Font
+    family: JetBrains Mono
     style: Regular
 
   bold:
-    family: CaskaydiaCove Nerd Font
+    family: JetBrains Mono
     style: Bold
 
   italic:
-    family: CaskaydiaCove Nerd Font
+    family: JetBrains Mono
     style: MediumItalic
 
-  size: 10 # Font Size
+  size: 7.5 # Font Size
 
   draw_bold_text_with_bright_colors: true
 

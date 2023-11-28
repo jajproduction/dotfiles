@@ -57,5 +57,8 @@
   "editor.fontFamily": "JetBrains Mono",
   "dart.closingLabels": false,
   "dart.lineLength": 120,
-  "window.zoomLevel": -1
+  "window.zoomLevel": -1,
+  "editor.fontSize": 12,
+  "debug.console.fontSize": 12,
+  "terminal.integrated.fontSize": 12
 }

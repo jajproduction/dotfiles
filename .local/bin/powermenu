@@ -3,13 +3,13 @@
 chosen=$(printf "  Power Off\n  Restart\n  Suspend\n  Hibernate\n  Logout\n  Lock" | rofi -dmenu -i -theme-str '@import "power.rasi"')
 
 case "$chosen" in
-	"  Power Off") poweroff ;;
-	"  Restart") reboot ;;
-	"  Suspend") systemctl suspend ;;
-	"  Hibernate") systemctl hibernate ;;
-  "  Logout") bspc quit ;;
-  # "  Logout") pkill qtile ;;
-	# "  Log Out") systemctl restart ly.service ;;
-	"  Lock") i3lock -c 000000 ;;
-	*) exit 1 ;;
+"  Power Off") poweroff ;;
+"  Restart") reboot ;;
+"  Suspend") systemctl suspend && i3lock -c '000000' ;;
+"  Hibernate") systemctl hibernate ;;
+# "  Logout") bspc quit ;;
+"  Logout") pkill xfce4-session ;;
+# "  Log Out") systemctl restart ly.service ;;
+"  Lock") i3lock -c 000000 ;;
+*) exit 1 ;;
 esac

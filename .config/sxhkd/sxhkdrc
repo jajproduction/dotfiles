@@ -21,7 +21,7 @@ super + shift + c
 	rofi -show calc
 
 # program launcher
-super + d
+super + @space
 	rofi -terminal alacritty -show drun -icon-theme "Papirus" -show-icons
 
 # show polybar
@@ -49,8 +49,8 @@ super + Return
 	alacritty
 
 # dmenu
-super + @space
-  dmenu_run -i -nb '#1a1b26' -nf '#a9b1d6' -sb '#7aa2f7' -sf '#1a1b26' -fn 'Agave Nerd Font-12'
+super + d
+  dmenu_run -i -nb '#000000' -nf '#a9b1d6' -sb '#7aa2f7' -sf '#000000' -fn 'Agave Nerd Font-14' -p 'Search:'
 
 # multimedia keys
 super + Up
