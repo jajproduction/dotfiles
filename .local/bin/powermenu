@@ -8,7 +8,7 @@ case "$chosen" in
 "  Suspend") systemctl suspend && i3lock -c '000000' ;;
 "  Hibernate") systemctl hibernate ;;
 # "  Logout") bspc quit ;;
-"  Logout") pkill xfce4-session ;;
+"  Logout") pkill i3 ;;
 # "  Log Out") systemctl restart ly.service ;;
 "  Lock") i3lock -c 000000 ;;
 *) exit 1 ;;
