@@ -1,6 +1,6 @@
 {
   "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.colorTheme": "Visual Studio Dark",
   "workbench.productIconTheme": "fluent-icons",
   "editor.tabSize": 2,
   "editor.fontLigatures": true,
@@ -54,11 +54,13 @@
   "better-comments.multilineComments": true,
   "better-comments.highlightPlainText": false,
   "workbench.iconTheme": "material-icon-theme",
-  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "Agave Nerd Font",
   "dart.closingLabels": false,
   "dart.lineLength": 120,
-  "window.zoomLevel": -1,
-  "editor.fontSize": 12,
   "debug.console.fontSize": 12,
-  "terminal.integrated.fontSize": 12
+  "terminal.integrated.fontSize": 16,
+  "editor.fontSize": 16,
+  "window.zoomLevel": -1,
+  "php.format.rules.alignConsecutiveAssignments": false,
+  "php.format.rules.alignConstants": true
 }

@@ -13,7 +13,7 @@ set -gx VISUAL vim
 # theme
 set -g theme_color_scheme terminal-dark
 set -g fish_prompt_pwd_dir_lenght 1
-set -g theme_display_user yes 
+set -g theme_display_user yes
 set -g theme_hide_hostname no
 set -g theme_hostname always
 
@@ -25,11 +25,11 @@ end
 alias ls 'exa --color=always --group-directories-first --icons'
 alias la 'exa -aG --color=always --group-directories-first --icons'
 alias ll 'exa -l --color=always --group-directories-first --icons'
-alias vim 'nvim'
-# alias vim 'lvim'
+# alias vim 'nvim'
+alias vim lvim
 # alias em '/usr/bin/emacs -nw'
 # alias rm 'rm -rf'
-alias rm 'trash'
+alias rm trash
 alias mv 'mv -f'
 alias cp 'cp -rf'
 alias gs 'git status -s'
