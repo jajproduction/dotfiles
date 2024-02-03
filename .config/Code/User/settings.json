@@ -1,6 +1,6 @@
 {
   "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Visual Studio Dark",
+  "workbench.colorTheme": "Default Dark+",
   "workbench.productIconTheme": "fluent-icons",
   "editor.tabSize": 2,
   "editor.fontLigatures": true,
@@ -58,9 +58,10 @@
   "dart.closingLabels": false,
   "dart.lineLength": 120,
   "debug.console.fontSize": 12,
-  "terminal.integrated.fontSize": 16,
-  "editor.fontSize": 16,
-  "window.zoomLevel": -1,
+  "terminal.integrated.fontSize": 15,
   "php.format.rules.alignConsecutiveAssignments": false,
-  "php.format.rules.alignConstants": true
+  "php.format.rules.alignConstants": true,
+  "editor.fontSize": 15,
+  "window.zoomLevel": -1,
+  "php.format.rules.openBraceOnNewLineForFunctions": false
 }
