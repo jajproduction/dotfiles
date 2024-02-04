@@ -275,13 +275,11 @@ bindsym XF86MonBrightnessDown exec changebrightness down
 # bindsym F8 exec playerctl next
 
 # application rules
-assign [class="Brave"] → 2
 assign [class="firefox"] → 2
-for_window [class="Min"] move to workspace 2
-for_window [class="Google-chrome"] move to workspace 2
-for_window [class="ONLYOFFICE Desktop Editors"] move to workspace 4
-for_window [class="libreoffice"] move to workspace 4
 assign [class="discord"] → 6
+
+for_window [class="Alacritty"] floating enable
+for_window [class="Pcmanfm"] floating enable
 for_window [class="Spotify"] move to workspace 7
 
 # autolock
