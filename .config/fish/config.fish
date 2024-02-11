@@ -25,7 +25,7 @@ end
 alias ls 'exa --color=always --group-directories-first --icons'
 alias la 'exa -aG --color=always --group-directories-first --icons'
 alias ll 'exa -l --color=always --group-directories-first --icons'
-alias vim 'nvim'
+alias vim nvim
 # alias vim lvim
 # alias em '/usr/bin/emacs -nw'
 # alias rm 'rm -rf'
@@ -59,4 +59,4 @@ alias . 'tmux new-session -s 1'
 
 # fisher install IlanCosman/tide@v5 (Fish prompt)
 # Remove comment below if not using custom prompt (fisher/tide)
-starship init fish | source
+# starship init fish | source
