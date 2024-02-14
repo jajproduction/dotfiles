@@ -2,14 +2,6 @@
 super + Escape
 	pkill -USR1 -x sxhkd
 
-# file manager
-super + e
-  pcmanfm
-
-# powermenu
-super + x
-  powermenu
-
 # rofi
 super + shift + e
 	rofi -show emoji
@@ -22,7 +14,7 @@ super + shift + c
 
 # program launcher
 super + d
-	rofi -terminal alacritty -show drun -icon-theme "Papirus" -show-icons
+  dmenu_run -i -nb '#1a1b26' -nf '#787c99' -sb '#449dab' -sf '#1a1b26' -fn 'Agave Nerd Font-12'
 
 # show polybar
 alt + p

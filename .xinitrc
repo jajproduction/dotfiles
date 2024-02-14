@@ -10,7 +10,7 @@ fi
 
 # intern=eDP-1
 # extern=HDMI-1
-# 
+#
 # if xrandr | grep "$extern disconnected"; then
 # 	xrandr --output "$extern" --off --output "$intern" --auto
 # else
@@ -18,7 +18,7 @@ fi
 # fi
 
 # only choose 1 window manager
-# exec qtile start
-exec i3
+exec qtile start
+# exec i3
 # exec bspwm
 # startxfce4

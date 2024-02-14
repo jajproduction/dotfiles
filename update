@@ -17,7 +17,10 @@ cp -rf ~/.config/i3status/ ~/.dotfiles/.config/
 cp -rf ~/.config/mpv/ ~/.dotfiles/.config/
 cp -rf ~/.config/picom/ ~/.dotfiles/.config/
 cp -rf ~/.config/polybar/ ~/.dotfiles/.config/
+cp -rf ~/.config/qtile/icons/ ~/.dotfiles/.config/qtile/
 cp -rf ~/.config/qtile/scripts/ ~/.dotfiles/.config/qtile/
+cp -rf ~/.config/qtile/autostart.sh ~/.dotfiles/.config/qtile/
+cp -rf ~/.config/qtile/colors.py ~/.dotfiles/.config/qtile/
 cp -rf ~/.config/qtile/config.py ~/.dotfiles/.config/qtile/
 cp -rf ~/.config/qutebrowser/config.py ~/.dotfiles/.config/qutebrowser/
 cp -rf ~/.config/redshift/redshift.conf ~/.dotfiles/.config/redshift/
