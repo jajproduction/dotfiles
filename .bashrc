@@ -38,5 +38,6 @@ alias youtube-dl-music='youtube-dl --extract-audio --audio-format mp3'
 # alias sxiv='devour sxiv'
 # alias zathura='devour zathura'
 alias checkupdates='checkupdates | less'
+alias dev='tmux new-session \; split-window -v -l 30% \; split-window -h'
 
 # eval "$(starship init bash)"

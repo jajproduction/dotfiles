@@ -24,10 +24,10 @@ end
 # aliases
 alias ls 'exa --color=always --group-directories-first --icons'
 alias la 'exa -aG --color=always --group-directories-first --icons'
-alias ll 'exa -l --color=always --group-directories-first --icons'
+alias ll 'exa -al --color=always --group-directories-first --icons'
 alias vim nvim
 # alias vim lvim
-# alias em '/usr/bin/emacs -nw'
+alias em '/usr/bin/emacs -nw'
 # alias rm 'rm -rf'
 alias rm trash
 alias mv 'mv -f'
@@ -47,6 +47,7 @@ alias checkupdates 'checkupdates | less'
 alias . 'tmux new-session -s 1'
 # alias how-old-am-i "sudo dumpe2fs $(mount | grep 'on \/ ' | awk '{print $1}') | grep 'Filesystem created:'"
 # alias xampp-start 'sudo xampp startapache; sudo xampp startmysql'
+alias dev 'tmux new-session \; split-window -v -l 30% \; split-window -h'
 
 # if status --is-login
 #   if test -z "$DISPLAY" -a $XDG_VTNR = 1

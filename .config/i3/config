@@ -281,7 +281,7 @@ assign [class="discord"] → 6
 # for_window [class="Alacritty"] floating enable
 for_window [class="Pcmanfm"] floating enable
 for_window [class="Emacs"] floating enable
-for_window [class="Code"] floating enable
+# for_window [class="Code"] floating enable
 for_window [class="Spotify"] move to workspace 7
 
 # autolock
