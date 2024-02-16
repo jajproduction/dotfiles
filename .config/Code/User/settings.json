@@ -58,7 +58,7 @@
   "dart.closingLabels": false,
   "dart.lineLength": 120,
   "debug.console.fontSize": 12,
-  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontSize": 16,
   "php.format.rules.alignConsecutiveAssignments": false,
   "php.format.rules.alignConstants": true,
   "editor.fontSize": 15,
