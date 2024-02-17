@@ -183,7 +183,7 @@ history = 5000
 decorations = "full"
 dynamic_padding = true
 dynamic_title = false
-opacity = 0.95
+# opacity = 0.95
 title = "Alacritty"
 
 [window.class]
@@ -195,5 +195,5 @@ columns = 120
 lines = 34
 
 [window.padding]
-x = 5
+x = 0
 y = 5
