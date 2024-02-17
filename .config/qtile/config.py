@@ -406,7 +406,7 @@ def init_widgets_list():
             foreground=colors[5],
             charge_char='',
             discharge_char='  ',
-            update_interval='2',
+            update_interval=1800,
             format='{char} {percent:2.0%}',
             decorations=[BorderDecoration(
                 colour=colors[7],
