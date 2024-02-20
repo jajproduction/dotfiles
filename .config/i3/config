@@ -278,7 +278,7 @@ bindsym XF86MonBrightnessDown exec changebrightness down
 assign [class="firefox"] → 2
 assign [class="discord"] → 6
 
-# for_window [class="Alacritty"] floating enable
+for_window [class="Alacritty"] floating enable
 for_window [class="Pcmanfm"] floating enable
 for_window [class="Emacs"] floating enable
 # for_window [class="Code"] floating enable
