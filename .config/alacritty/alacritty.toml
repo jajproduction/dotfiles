@@ -1,44 +1,32 @@
 live_config_reload = true
 
-# Catppuccino theme scheme for Alacritty except for the bg
-
 [colors.primary]
 background = '#00141A'
-foreground = '#D6D6D6'
+foreground = '#839496'
 
 [colors.cursor]
 text = '#00141A'
-cursor = '#D9D9D9'
+cursor = '#839496'
 
 [colors.normal]
-black = '#181A1F'
-red = '#E86671'
-green = '#98C379'
-yellow = '#E5C07B'
-blue = '#61AFEF'
-magenta = '#C678DD'
-cyan = '#54AFBC'
-white = '#ABB2BF'
+black = '#073642'
+red = '#dc322f'
+green = '#859900'
+yellow = '#b58900'
+blue = '#268bd2'
+magenta = '#d33682'
+cyan = '#2aa198'
+white = '#eee8d5'
 
 [colors.bright]
-black = '#5C6370'
-red = '#E86671'
-green = '#98C379'
-yellow = '#E5C07B'
-blue = '#61AFEF'
-magenta = '#C678DD'
-cyan = '#54AFBC'
-white = '#F7F7F7'
-
-[colors.dim]
-black = '#5C6370'
-red = '#74423F'
-green = '#98C379'
-yellow = '#E5C07B'
-blue = '#61AFEF'
-magenta = '#6E4962'
-cyan = '#5C8482'
-white = '#828282'
+black = '#345c66'
+red = '#cb4b16'
+green = '#586e75'
+yellow = '#657b83'
+blue = '#839496'
+magenta = '#6c71c4'
+cyan = '#93a1a1'
+white = '#fdf6e3'
 
 [cursor]
 blink_interval = 150

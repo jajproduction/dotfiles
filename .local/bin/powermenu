@@ -9,7 +9,7 @@ case "$chosen" in
 "  Hibernate") systemctl hibernate ;;
 # "  Logout") bspc quit ;;
 "  Logout") pkill i3 ;;
-# "  Log Out") systemctl restart ly.service ;;
+# "  Log Out") pkill xfce4-session ;;
 "  Lock") i3lock -c 000000 ;;
 *) exit 1 ;;
 esac
