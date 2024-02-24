@@ -22,7 +22,7 @@ function fish_user_key_bindings
 end
 
 # aliases
-alias ls 'exa --color=always --group-directories-first --icons'
+alias ls 'exa -l --color=always --group-directories-first --icons'
 alias la 'exa -aG --color=always --group-directories-first --icons'
 alias ll 'exa -al --color=always --group-directories-first --icons'
 alias vim nvim
@@ -47,7 +47,7 @@ alias checkupdates 'checkupdates | less'
 alias . 'tmux new-session -s 1'
 # alias how-old-am-i "sudo dumpe2fs $(mount | grep 'on \/ ' | awk '{print $1}') | grep 'Filesystem created:'"
 # alias xampp-start 'sudo xampp startapache; sudo xampp startmysql'
-alias dev 'tmux new-session \; split-window -v -l 30% \; split-window -h'
+# alias dev 'tmux new-session \; split-window -v -l 30% \; split-window -h'
 
 # if status --is-login
 #   if test -z "$DISPLAY" -a $XDG_VTNR = 1
@@ -60,4 +60,4 @@ alias dev 'tmux new-session \; split-window -v -l 30% \; split-window -h'
 
 # fisher install IlanCosman/tide@v5 (Fish prompt)
 # Remove comment below if not using custom prompt (fisher/tide)
-# starship init fish | source
+starship init fish | source
