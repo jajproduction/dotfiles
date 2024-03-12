@@ -259,7 +259,7 @@ exec --no-startup-id nitrogen --restore
 exec --no-startup-id xidlehook --not-when-audio --not-when-fullscreen --timer 900 'systemctl suspend;i3lock -c 000000' ''
 exec --no-startup-id sxhkd -c $HOME/.config/i3/sxhkdrc
 exec --no-startup-id redshift
-exec --no-startup-id qutebrowser
+# exec --no-startup-id firefox
 
 # Sreen brightness controls
 # bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
@@ -287,6 +287,7 @@ for_window [class="Pcmanfm"] floating enable
 for_window [class="Spotify"] floating enable
 for_window [class="TelegramDesktop"] floating enable
 for_window [class="Code"] floating enable
+for_window [class="discord"] floating enable
 for_window [class="discord"] floating enable
 # for_window [class="Emacs"] floating enable
 # for_window [class="Code"] floating enable
