@@ -203,8 +203,8 @@ for i in groups:
 colors = colors.Catppuccin
 
 layout_theme = {"border_width": 2,
-                "margin": 8,
-                "border_focus": colors[8],
+                "margin": 4,
+                "border_focus": colors[6],
                 "border_normal": colors[0]
                 }
 
