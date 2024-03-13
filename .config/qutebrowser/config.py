@@ -27,7 +27,7 @@ config.set('content.javascript.enabled', True, 'qute://*/*')
 
 c.tabs.show = 'never' # options: always,never.
 c.downloads.location.directory = '~/Downloads'
-c.url.start_pages = 'https://notion.so'
+# c.url.start_pages = 'https://notion.so'
 c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}'}
 c.fonts.default_family = "JetBrains Mono Nerd Font"
 c.fonts.default_size = '9pt'
