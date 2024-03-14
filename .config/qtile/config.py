@@ -317,7 +317,7 @@ def init_widgets_list():
         widget.CheckUpdates(
             update_interval=1800,
             distro="Arch_checkupdates",
-            display_format="  Updates: {updates}",
+            display_format="    Updates: {updates}",
             no_update_string='    No updates',
             foreground=colors[0],
             colour_have_updates=colors[7],
