@@ -253,7 +253,7 @@ layouts = [
 ]
 
 widget_defaults = dict(
-    font="Ubunto Bold",
+    font="Ubuntu Bold",
     fontsize=10,
     padding=0,
     background=colors[0]
@@ -275,7 +275,7 @@ def init_widgets_list():
             margin_x=5,
             padding_y=0,
             padding_x=1,
-            borderwidth=3,
+            borderwidth=2,
             active=colors[8],
             inactive=colors[1],
             rounded=False,
@@ -318,7 +318,7 @@ def init_widgets_list():
             update_interval=1800,
             distro="Arch_checkupdates",
             display_format="  Updates: {updates}",
-            no_update_string='No updates',
+            no_update_string='    No updates',
             foreground=colors[0],
             colour_have_updates=colors[7],
             colour_no_updates=colors[7],
@@ -404,8 +404,8 @@ def init_widgets_list():
         widget.Spacer(length=8),
         widget.Battery(
             foreground=colors[5],
-            charge_char='',
-            discharge_char='  ',
+            charge_char=' ',
+            discharge_char='    ',
             update_interval=1800,
             format='{char} {percent:2.0%}',
             decorations=[BorderDecoration(
@@ -425,9 +425,9 @@ def init_widgets_list():
                 )
             ],
         ),
-        widget.Spacer(length=8),
-        widget.Systray(padding=3, icon_size=15),
-        widget.Spacer(length=8),
+        widget.Spacer(length=2),
+        widget.Systray(padding=4, icon_size=12),
+        widget.Spacer(length=2),
 
     ]
     return widgets_list
@@ -450,9 +450,9 @@ def init_widgets_screen2():
 
 
 def init_screens():
-    return [Screen(bottom=bar.Bar(widgets=init_widgets_screen1(), size=24)),
-            Screen(bottom=bar.Bar(widgets=init_widgets_screen2(), size=24)),
-            Screen(bottom=bar.Bar(widgets=init_widgets_screen2(), size=24))]
+    return [Screen(bottom=bar.Bar(widgets=init_widgets_screen1(), size=20)),
+            Screen(bottom=bar.Bar(widgets=init_widgets_screen2(), size=20)),
+            Screen(bottom=bar.Bar(widgets=init_widgets_screen2(), size=20))]
 
 
 if __name__ in ["config", "__main__"]:
