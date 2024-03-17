@@ -1,31 +1,28 @@
 live_config_reload = true
 
-# Default colors
 [colors.primary]
-background = '#001a1d'
-foreground = '#839496'
+background = '#282c34'
+foreground = '#abb2bf'
 
-# Normal colors
 [colors.normal]
-black = '#073642'
-red = '#dc322f'
-green = '#859900'
-yellow = '#b58900'
-blue = '#268bd2'
-magenta = '#d33682'
-cyan = '#2aa198'
-white = '#eee8d5'
+black = '#1e2127'
+red = '#e06c75'
+green = '#98c379'
+yellow = '#d19a66'
+blue = '#61afef'
+magenta = '#c678dd'
+cyan = '#56b6c2'
+white = '#abb2bf'
 
-# Bright colors
 [colors.bright]
-black = '#4c4c4c'
-red = '#cb4b16'
-green = '#586e75'
-yellow = '#657b83'
-blue = '#839496'
-magenta = '#6c71c4'
-cyan = '#93a1a1'
-white = '#fdf6e3'
+black = '#5c6370'
+red = '#e06c75'
+green = '#98c379'
+yellow = '#d19a66'
+blue = '#61afef'
+magenta = '#c678dd'
+cyan = '#56b6c2'
+white = '#ffffff'
 
 [cursor]
 blink_interval = 150
@@ -147,4 +144,4 @@ lines = 45
 
 [window.padding]
 x = 5
-y = 5
+y = 2
