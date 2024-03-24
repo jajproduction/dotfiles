@@ -71,13 +71,13 @@ def maximize_by_switching_layout(qtile):
 keys = [
     # The essentials
     Key([mod], "Return", lazy.spawn(myTerm), desc="Terminal"),
-    Key([mod, "shift"], "Return", lazy.spawn(
-        "rofi -show drun"), desc='Run Launcher'),
+    Key([mod, "shift"], "Return", lazy.spawn("rofi -show drun"), desc='Run Launcher'),
     Key([mod], "b", lazy.spawn(myBrowser), desc='Web browser'),
     Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
     Key([mod], "q", lazy.window.kill(), desc="Kill focused window"),
     Key([mod, "shift"], "r", lazy.reload_config(), desc="Reload the config"),
     Key([mod], "x", lazy.shutdown(), desc="Logout qtile session"),
+    Key([mod, "shift"], "x", lazy.spawn("powermenu")),
     Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
 
     # Switch between windows
@@ -276,7 +276,7 @@ def init_widgets_list():
             padding_y=0,
             padding_x=1,
             borderwidth=2,
-            active=colors[8],
+            active=colors[4],
             inactive=colors[1],
             rounded=False,
             highlight_color=colors[0],
