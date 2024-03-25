@@ -35,6 +35,9 @@ alias gp='git push'
 alias gd='git diff'
 alias youtube-dl-music='youtube-dl --extract-audio --audio-format mp3'
 alias checkupdates='checkupdates | less'
-alias dev='tmux new-session \; split-window -v -l 30% \; split-window -h'
+# alias dev='tmux new-session \; split-window -v -l 30% \; split-window -h'
+alias z='fd --type f --hidden --exclude .git | fzf-tmux -p --reverse | xargs nvim'
+alias gg='lazygit'
+alias zz='du -sh'
 
 # eval "$(starship init bash)"

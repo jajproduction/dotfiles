@@ -50,7 +50,7 @@ super + Return
 
 # dmenu
 super + d
-  dmenu_run -i -nb '#000000' -nf '#a9b1d6' -sb '#7aa2f7' -sf '#000000' -fn 'Agave Nerd Font-14' -p 'Search:'
+  dmenu_run -i -nb '#1a1b26' -nf '#787c99' -sb '#449dab' -sf '#1a1b26' -fn 'Agave Nerd Font-12'
 
 # multimedia keys
 super + Up

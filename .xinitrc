@@ -18,7 +18,7 @@ fi
 # fi
 
 # only choose 1 window manager
-exec qtile start
+# exec qtile start
 # exec i3
-# exec bspwm
-# startxfce4
+exec bspwm
+redshift &
