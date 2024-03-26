@@ -56,7 +56,7 @@ symbol = " "
 
 [hostname]
 ssh_only = false
-format = '@[$hostname](bold red) '
+format = '@[$hostname](bold white) '
 trim_at = '.companyname.com'
 disabled = false
 

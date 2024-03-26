@@ -21,4 +21,3 @@ fi
 # exec qtile start
 # exec i3
 exec bspwm
-redshift &

@@ -2,6 +2,7 @@
 
 # Start applications from ~/.local/bin/autostart
 autostart &
+redshift-gtk &
 
 # bspwm settings
 bspc monitor eDP-1 -d 1 2 3 4 5 6 7 8 &

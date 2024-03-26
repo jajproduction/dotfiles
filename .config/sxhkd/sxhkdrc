@@ -68,8 +68,8 @@ super + Left
 # bspwm hotkeys
 
 # quit/restart bspwm
-super + shift + r
-	bspc wm -r
+# super + shift + r
+# 	bspc wm -r
 
 # close and kill
 super + q
