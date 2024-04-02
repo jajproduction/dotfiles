@@ -13,7 +13,7 @@ picom -b &
 dunst &
 
 # set the wallpaper
-nitrogen --set-scaled ~/.dotfiles/wall.jpg &
+nitrogen --set-zoom-fill ~/.dotfiles/wall.jpg &
 
 # suspend after 30 minutes of inactivity
 # automatically suspend after 30 minutes of inactivity
