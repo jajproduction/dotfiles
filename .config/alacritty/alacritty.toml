@@ -1,42 +1,22 @@
 live_config_reload = true
 
 [colors.primary]
-background = '#1E1E2E'
-foreground = '#D6D6D6'
+background = '#1E1E1E'
+foreground = '#D4D4D4'
 
 [colors.cursor]
-text = '#1E1E2E'
-cursor = '#D9D9D9'
+text = '#1E1E1E'
+cursor = '#D4D4D4'
 
 [colors.normal]
-black = '#181A1F'
-red = '#E86671'
-green = '#98C379'
-yellow = '#E5C07B'
-blue = '#61AFEF'
-magenta = '#C678DD'
-cyan = '#54AFBC'
-white = '#ABB2BF'
-
-[colors.bright]
-black = '#5C6370'
-red = '#E86671'
-green = '#98C379'
-yellow = '#E5C07B'
-blue = '#61AFEF'
-magenta = '#C678DD'
-cyan = '#54AFBC'
-white = '#F7F7F7'
-
-[colors.dim]
-black = '#5C6370'
-red = '#74423F'
-green = '#98C379'
-yellow = '#E5C07B'
-blue = '#61AFEF'
-magenta = '#6E4962'
-cyan = '#5C8482'
-white = '#828282'
+black = '#1E1E1E'
+red = '#F44747'
+green = '#608B4E'
+yellow = '#D7BA7D'
+blue = '#569CD6'
+magenta = '#C586C0'
+cyan = '#9CDCFE'
+white = '#D4D4D4'
 
 [cursor]
 blink_interval = 150
@@ -49,7 +29,7 @@ TERM = "xterm-256color"
 
 [font]
 # draw_bold_text_with_bright_colors = true
-size = 9
+size = 11
 
 [font.bold]
 family = "Agave Nerd Font"
