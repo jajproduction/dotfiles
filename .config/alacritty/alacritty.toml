@@ -1,40 +1,28 @@
 live_config_reload = true
 
 [colors.primary]
-background = '#191724'
-foreground = '#e0def4'
-
-[colors.cursor]
-text = '#e0def4'
-cursor = '#524f67'
-
-[colors.vi_mode_cursor]
-text = '#e0def4'
-cursor = '#524f67'
-
-[colors.selection]
-text = '#e0def4'
-background = '#403d52'
+background = '#282828'
+foreground = '#dfbf8e'
 
 [colors.normal]
-black = '#26233a'
-red = '#eb6f92'
-green = '#31748f'
-yellow = '#f6c177'
-blue = '#9ccfd8'
-magenta = '#c4a7e7'
-cyan = '#ebbcba'
-white = '#e0def4'
+black = '#665c54'
+red = '#ea6962'
+green = '#a9b665'
+yellow = '#e78a4e'
+blue = '#7daea3'
+magenta = '#d3869b'
+cyan = '#89b482'
+white = '#dfbf8e'
 
 [colors.bright]
-black = '#6e6a86'
-red = '#eb6f92'
-green = '#31748f'
-yellow = '#f6c177'
-blue = '#9ccfd8'
-magenta = '#c4a7e7'
-cyan = '#ebbcba'
-white = '#e0def4'
+black = '#928374'
+red = '#ea6962'
+green = '#a9b665'
+yellow = '#e3a84e'
+blue = '#7daea3'
+magenta = '#d3869b'
+cyan = '#89b482'
+white = '#dfbf8e'
 
 [colors.hints]
 start = { foreground = '#908caa', background = '#1f1d2e' }
