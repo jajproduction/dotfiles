@@ -2,6 +2,18 @@
 # Then, you can use RGBA color codes to add transparency to the colors below.
 # For ex: colors = [["#282c34ee", "#282c34dd"], ...
 
+SolarizedOsaka = [
+    ['#001a1d', '#001a1d'],  # bg
+    ['#839496', '#839496'],  # fg
+    ['#073642', '#073642'],  # color01
+    ['#dc322f', '#dc322f'],  # color02
+    ['#859900', '#859900'],  # color03
+    ['#b58900', '#b58900'],  # color04
+    ['#268bd2', '#268bd2'],  # color05
+    ['#d33682', '#d33682'],  # color06
+    ['#2aa198', '#2aa198'],  # color07
+]
+
 Catppuccin = [
     ["#1E1E2E", "#1E1E2E"], # bg
     ["#CDD6F4", "#CDD6F4"], # fg
@@ -12,7 +24,7 @@ Catppuccin = [
     ["#89B4FA", "#89B4FA"], # color05
     ["#F5C2E7", "#F5C2E7"], # color06
     ["#94E2D5", "#94E2D5"]  # color15
-    ]
+]
 
 Dracula  = [
     ["#282a36", "#282a36"], # bg
@@ -24,7 +36,7 @@ Dracula  = [
     ["#bd93f9", "#bd93f9"], # color05
     ["#ff79c6", "#ff79c6"], # color06
     ["#9aedfe", "#9aedfe"]  # color15
-    ]
+]
 
 GruvboxDark  = [
     ["#282828", "#282828"], # bg
@@ -36,7 +48,8 @@ GruvboxDark  = [
     ["#83a598", "#83a598"], # color05
     ["#d3869b", "#d3869b"], # color06
     ["#b8bb26", "#b8bb26"], # color11
-    ]
+]
+
 MonokaiPro = [
     ["#2D2A2E", "#2D2A2E"], # bg
     ["#FCFCFA", "#FCFCFA"], # fg
@@ -47,7 +60,7 @@ MonokaiPro = [
     ["#FC9867", "#FC9867"], # color05
     ["#AB9DF2", "#AB9DF2"], # color06
     ["#78DCE8", "#78DCE8"]  # color07
-    ]
+]
 
 Nord = [
     ["#2E3440", "#2E3440"], # bg
@@ -59,7 +72,7 @@ Nord = [
     ["#81A1C1", "#81A1C1"], # color05
     ["#B48EAD", "#B48EAD"], # color06
     ["#88C0D0", "#88C0D0"]  # color07
-    ]
+]
 
 OceanicNext = [
     ["#1b2b34", "#1b2b34"], # bg
@@ -71,7 +84,7 @@ OceanicNext = [
     ["#6699cc", "#6699cc"], # color05
     ["#c594c5", "#c594c5"], # color06
     ["#5fb3b3", "#5fb3b3"]  # color07
-    ]
+]
 
 Palenight = [
     ["#292d3e", "#292d3e"], # bg
@@ -83,7 +96,7 @@ Palenight = [
     ["#82aaff", "#82aaff"], # color05
     ["#c792ea", "#c792ea"], # color06
     ["#89ddff", "#89ddff"]  # color15
-    ]
+]
 
 SolarizedDark = [
     ["#002b36", "#002b36"], # bg
@@ -95,7 +108,7 @@ SolarizedDark = [
     ["#268bd2", "#268bd2"], # color05
     ["#d33682", "#d33682"], # color06
     ["#2aa198", "#2aa198"]  # color15
-    ]
+]
 
 SolarizedLight = [
     ["#fdf6e3", "#fdf6e3"], # bg
@@ -107,7 +120,7 @@ SolarizedLight = [
     ["#268bd2", "#268bd2"], # color05
     ["#d33682", "#d33682"], # color06
     ["#2aa198", "#2aa198"]  # color15
-    ]
+]
 
 TomorrowNight = [
     ["#1d1f21", "#1d1f21"], # bg
@@ -119,4 +132,4 @@ TomorrowNight = [
     ["#81a2be", "#81a2be"], # color05
     ["#b294bb", "#b294bb"], # color06
     ["#70c0ba", "#70c0ba"]  # color15
-    ]
+]

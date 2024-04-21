@@ -200,7 +200,7 @@ for i in groups:
         ]
     )
 
-colors = colors.Catppuccin
+colors = colors.SolarizedOsaka
 
 layout_theme = {"border_width": 2,
                 "margin": 4,
@@ -292,12 +292,6 @@ def init_widgets_list():
             foreground=colors[1],
             padding=2,
             fontsize=14
-        ),
-        widget.CurrentLayoutIcon(
-            # custom_icon_paths = [os.path.expanduser("~/.config/qtile/icons")],
-            foreground=colors[1],
-            padding=4,
-            scale=0.5
         ),
         widget.CurrentLayout(
             foreground=colors[1],
