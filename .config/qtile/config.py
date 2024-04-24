@@ -396,10 +396,12 @@ def init_widgets_list():
         widget.Spacer(length=8),
         widget.Battery(
             foreground=colors[1],
-            charge_char=' ',
-            discharge_char='    ',
+            charge_char='Chr:',
+            discharge_char='Bat:',
+            full_char='Full:',
             update_interval=2,
             format='{char} {percent:2.0%}',
+            show_short_text=False,
             # decorations=[BorderDecoration(
             #     colour=colors[7],
             #     border_width=[0, 0, 2, 0],
@@ -530,7 +532,7 @@ floating_layout = layout.Floating(
         Match(wm_class="tasty.javafx.launcher.LauncherFxApp"),
     ]
 )
-auto_fullscreen = True
+auto_fullscreen = False
 focus_on_window_activation = "smart"
 reconfigure_screens = True
 
