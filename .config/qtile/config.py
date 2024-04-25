@@ -204,7 +204,7 @@ colors = colors.SolarizedOsaka
 
 layout_theme = {"border_width": 2,
                 "margin": 4,
-                "border_focus": colors[6],
+                "border_focus": colors[2],
                 "border_normal": colors[0]
                 }
 
@@ -270,7 +270,7 @@ def init_widgets_list():
             foreground=colors[1]
         ),
         widget.GroupBox(
-            fontsize=9,
+            fontsize=8,
             margin_y=5,
             margin_x=5,
             padding_y=0,
