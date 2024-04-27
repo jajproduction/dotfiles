@@ -200,7 +200,7 @@ for i in groups:
         ]
     )
 
-colors = colors.SolarizedOsaka
+colors = colors.Catppuccin
 
 layout_theme = {"border_width": 2,
                 "margin": 4,
@@ -264,17 +264,12 @@ extension_defaults = widget_defaults.copy()
 
 def init_widgets_list():
     widgets_list = [
-        widget.Prompt(
-            font="Ubuntu Mono",
-            fontsize=14,
-            foreground=colors[1]
-        ),
         widget.GroupBox(
             fontsize=8,
             margin_y=5,
             margin_x=5,
             padding_y=0,
-            padding_x=1,
+            padding_x=0,
             borderwidth=2,
             active=colors[6],
             inactive=colors[1],
