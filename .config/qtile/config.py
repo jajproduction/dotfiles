@@ -321,7 +321,7 @@ def init_widgets_list():
             #     )
             # ],
         ),
-        widget.Spacer(length=8),
+        # widget.Spacer(length=8),
         widget.GenPollText(
             update_interval=300,
             func=lambda: subprocess.check_output("printf $(uname -r)", shell=True, text=True),
@@ -416,7 +416,7 @@ def init_widgets_list():
         ),
         widget.Spacer(length=2),
         widget.Systray(padding=4, icon_size=12),
-        widget.Spacer(length=2),
+        widget.Spacer(length=8),
 
     ]
     return widgets_list
