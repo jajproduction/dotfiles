@@ -301,18 +301,18 @@ def init_widgets_list():
         ),
         widget.WindowName(
             foreground=colors[1],
-            max_chars=40
+            max_chars=90
         ),
         widget.CheckUpdates(
             update_interval=1800,
             distro="Arch_checkupdates",
-            display_format="    Updates: {updates}",
-            no_update_string='    No updates',
+            display_format="Updates: {updates}",
+            no_update_string='No updates',
             foreground=colors[0],
             colour_have_updates=colors[4],
             colour_no_updates=colors[4],
             mouse_callbacks={"Button1": lambda: qtile.cmd_spawn(terminal + " -e sudo pacman -Syu")},
-            padding=5,
+            padding=8,
             background=colors[0],
             # decorations=[
             #     BorderDecoration(
