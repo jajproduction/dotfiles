@@ -72,6 +72,7 @@ keys = [
     # The essentials
     Key([mod], "Return", lazy.spawn(myTerm), desc="Terminal"),
     Key([mod, "shift"], "Return", lazy.spawn("rofi -show drun"), desc='Run Launcher'),
+    Key([mod, "shift"], "d", lazy.spawn("dm-search"), desc='Run Launcher'),
     Key([mod], "b", lazy.spawn(myBrowser), desc='Web browser'),
     Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
     Key([mod], "q", lazy.window.kill(), desc="Kill focused window"),
