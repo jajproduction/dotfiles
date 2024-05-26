@@ -262,7 +262,6 @@ exec --no-startup-id nitrogen --set-zoom-fill ~/.dotfiles/wall.png
 exec --no-startup-id xidlehook --not-when-audio --not-when-fullscreen --timer 1800 'systemctl suspend-then-hibernate;i3lock -c 000000' ''
 exec --no-startup-id sxhkd -c $HOME/.config/i3/sxhkdrc
 exec --no-startup-id redshift-gtk
-# exec --no-startup-id firefox
 
 # Sreen brightness controls
 # bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
@@ -279,12 +278,11 @@ bindsym XF86MonBrightnessDown exec changebrightness down
 # bindsym F8 exec playerctl next
 
 # application rules
-assign [class="firefox"] → 2
+assign [class="Brave-browser"] → 2
 assign [class="qutebrowser"] → 2
 assign [class="discord"] → 6
 
 # for_window [class="Alacritty"] floating enable
-# for_window [class="firefox"] floating enable
 for_window [class="Zathura"] floating enable
 for_window [class="Pcmanfm"] floating enable
 for_window [class="Spotify"] floating enable
