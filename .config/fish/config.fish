@@ -22,7 +22,7 @@ function fish_user_key_bindings
 end
 
 function zd
-    set -l dir (find ~/Developments -mindepth 2 -maxdepth 2 -type d -print 2> /dev/null | fzf)
+    set -l dir (find ~/Developments -mindepth 2 -maxdepth 2 -type d -print 2> /dev/null | fzf-tmux -p --reverse)
     if test -n "$dir"
         cd "$dir"
     end
