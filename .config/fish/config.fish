@@ -21,6 +21,13 @@ function fish_user_key_bindings
     fish_vi_key_bindings
 end
 
+function zd
+    set -l dir (find ~/Developments -mindepth 2 -maxdepth 2 -type d -print 2> /dev/null | fzf)
+    if test -n "$dir"
+        cd "$dir"
+    end
+end
+
 # aliases
 alias ls 'exa --color=always --group-directories-first --icons'
 alias la 'exa -aG --color=always --group-directories-first --icons'
