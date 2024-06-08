@@ -25,12 +25,12 @@ super + d
 	rofi -terminal alacritty -show drun -icon-theme "Papirus" -show-icons
 
 # show polybar
-alt + p
-	$HOME/.config/polybar/launch.sh
+# alt + p
+# 	$HOME/.config/polybar/launch.sh
 
 # kill polybar
-alt + shift + p
-	killall -q polybar
+# alt + shift + p
+# 	killall -q polybar
 
 # show date
 alt + d
@@ -51,6 +51,9 @@ super + Return
 # dmenu
 super + @space
   dmenu_run -i -nb '#1a1b26' -nf '#a9b1d6' -sb '#7aa2f7' -sf '#1a1b26' -fn 'Agave Nerd Font-12'
+
+super + shift + b
+  dm-search
 
 # multimedia keys
 super + Up

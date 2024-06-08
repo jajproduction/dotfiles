@@ -1,5 +1,5 @@
 set -e fish_user_paths
-set -U fish_user_paths $HOME/.pub-cache/bin $HOME/.local/bin $HOME/flutter-sdk/flutter/bin $HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH $fish_user_paths
+set -U fish_user_paths $HOME/.pub-cache/bin $HOME/.local/bin $HOME/Developments/flutter/sdk/flutter/bin $HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH $fish_user_paths
 
 set fish_greeting ""
 set fish_history ""
@@ -9,6 +9,8 @@ set -gx TERM xterm-256color
 # set VISUAL emacsclient -c -a emacs
 set -gx EDITOR vim
 set -gx VISUAL vim
+set -gx ANDROID_HOME $HOME/Android/Sdk/
+set -gx PATH $ANDROID_HOME/platform-tools $PATH
 
 # theme
 set -g theme_color_scheme terminal-dark
@@ -25,6 +27,13 @@ function zd
     set -l dir (find ~/Developments -mindepth 2 -maxdepth 2 -type d -print 2> /dev/null | fzf-tmux -p --reverse)
     if test -n "$dir"
         cd "$dir"
+    end
+end
+
+function zn
+    set -l selection (find ~/TIL -mindepth 1 -maxdepth 5 \( -type d -o -type f \) -print 2> /dev/null | fzf-tmux -p --reverse)
+    if test -n "$selection"
+        nvim "$selection"
     end
 end
 
