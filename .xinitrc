@@ -21,7 +21,7 @@ fi
 # xrandr --output "$extern" --same-as "$intern"
 
 # only choose 1 window manager
-# exec qtile start
-exec i3
+exec qtile start
+# exec i3
 # exec bspwm
 # startxfce4
