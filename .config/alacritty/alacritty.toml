@@ -85,6 +85,22 @@ blinking = "Always"
 [env]
 TERM = "xterm-256color"
 
+[font]
+# draw_bold_text_with_bright_colors = true
+size = 11.5
+
+[font.bold]
+family = "Agave Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "Agave Nerd Font"
+style = "MediumItalic"
+
+[font.normal]
+family = "Agave Nerd Font"
+style = "Regular"
+
 [[keyboard.bindings]]
 action = "Paste"
 key = "V"
