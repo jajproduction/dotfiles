@@ -252,6 +252,7 @@ mode "$mode_gaps_outer" {
 # bindsym $mod+z exec rofi -show run -lines 20 -eh 1.3 -opacity "85" -bw 0 -font "System San Francisco Display 10"
 
 # autostart
+exec_always --no-startup-id autotiling
 exec --no-startup-id lxsession
 exec --no-startup-id picom -b
 exec --no-startup-id nm-applet
