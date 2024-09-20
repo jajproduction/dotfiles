@@ -286,7 +286,7 @@ assign [class="discord"] → 6
 # for_window [class="Alacritty"] floating enable
 for_window [class="Zathura"] floating enable
 for_window [class="Pcmanfm"] floating enable
-for_window [class="Spotify"] floating enable
+# for_window [class="Spotify"] floating enable
 for_window [class="TelegramDesktop"] floating enable
 for_window [class="discord"] floating enable
 for_window [class="mpv"] floating enable
@@ -294,7 +294,7 @@ for_window [class="mpv"] floating enable
 for_window [class="Spotify"] move to workspace 7
 
 # autolock
-exec --no-startup-id xautolock -corners -000 -time 10 -locker 'i3lock -c 000000' &
+# exec --no-startup-id xautolock -corners -000 -time 10 -locker 'i3lock -c 000000' &
 bindsym Pause exec i3lock -c 000000 && systemctl suspend
 
 
