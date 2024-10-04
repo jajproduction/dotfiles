@@ -16,8 +16,7 @@ bspc config borderless_monocle true
 bspc config gapless_monocle true
 
 # bspc rule -a Alacritty state=floating
-bspc rule -a TelegramDesktop state=floating
 bspc rule -a Zathura state=tiling
 bspc rule -a firefox desktop='^2'
-bspc rule -a TelegramDesktop desktop='^6'
+bspc rule -a Min desktop='^2'
 bspc rule -a Spotify desktop='^7'
