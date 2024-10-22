@@ -3,14 +3,26 @@
 # Applications to start on session start
 # Intended to be called from bspwmrc or similar wm startup script
 
+# session manager
+lxsession &
+
+# screenshot tray
+flameshot &
+
 # keybindings daemon
 sxhkd &
+
+# launch polybar
+$HOME/.config/polybar/launch.sh &
 
 # window compositor
 picom -b &
 
 # notification daemon
 dunst &
+
+# apply cursor theme
+xsetroot -cursor_name left_ptr &
 
 # set the wallpaper
 nitrogen --set-zoom-fill ~/.dotfiles/wall.jpg &
@@ -19,17 +31,5 @@ nitrogen --set-zoom-fill ~/.dotfiles/wall.jpg &
 # automatically suspend after 30 minutes of inactivity
 xidlehook --not-when-audio --not-when-fullscreen --timer 1800 'i3lock -c 000000;systemctl suspend' ''
 
-# launch polybar
-$HOME/.config/polybar/launch.sh &
-
 # prevents middle click paste in terminal because it's annoying
 xmousepasteblock &
-
-# apply cursor theme
-xsetroot -cursor_name left_ptr &
-
-# session manager
-lxsession &
-
-# screenshot tray
-flameshot &
