@@ -17,6 +17,13 @@ else
 	xrandr --output "$intern" --off --output "$extern" --auto
 fi
 
+# disbable screen off
+if command -v xset >/dev/null; then
+	xset s off
+	xset -dpms
+	xset s noblank
+fi
+
 # duplicate screen
 # xrandr --output "$extern" --same-as "$intern"
 

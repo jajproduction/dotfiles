@@ -7,8 +7,8 @@ case "$chosen" in
 "  Restart") reboot ;;
 "  Suspend") systemctl suspend && i3lock -c '000000' ;;
 "  Hibernate") systemctl hibernate ;;
-"󰍃  Logout") bspc quit ;;
-# "󰍃  Logout") pkill i3 ;;
+# "󰍃  Logout") bspc quit ;;
+"󰍃  Logout") pkill i3 ;;
 "  Lock") i3lock -c 000000 ;;
 *) exit 1 ;;
 esac
