@@ -3,5 +3,5 @@
 query=$(echo "" | dmenu -p "Search: ")
 
 if [ -n "$query" ]; then
-	brave "$query"
+	firefox "$query"
 fi
