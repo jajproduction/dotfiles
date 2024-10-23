@@ -44,6 +44,9 @@ alt + b
 Pause
   i3lock -c '000000' && systemctl suspend
 
+alt + l
+  i3lock -c '000000'
+
 # terminal emulator
 super + Return
 	alacritty

@@ -279,7 +279,7 @@ bindsym XF86MonBrightnessDown exec changebrightness down
 # bindsym F8 exec playerctl next
 
 # application rules
-assign [class="Brave-browser"] → 2
+assign [class="firefox"] → 2
 assign [class="qutebrowser"] → 2
 assign [class="discord"] → 6
 
