@@ -131,7 +131,7 @@ history = 5000
 [window]
 decorations = "full"
 dynamic_padding = true
-dynamic_title = false
+dynamic_title = true
 # opacity = 0.95
 title = "Alacritty"
 
@@ -140,8 +140,8 @@ general = "Alacritty"
 instance = "Alacritty"
 
 [window.dimensions]
-columns = 130
-lines = 34
+columns = 190
+lines = 50
 
 [window.padding]
 x = 0
