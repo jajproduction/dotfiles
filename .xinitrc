@@ -17,6 +17,9 @@ else
 	xrandr --output "$intern" --off --output "$extern" --auto
 fi
 
+# dual screen enable
+xrandr --output DP2 --primary --mode 1920x1080 --pos 0x0 --output HDMI1 --mode 1920x1080 --left-of DP2
+
 # disbable screen off
 if command -v xset >/dev/null; then
 	xset s off
