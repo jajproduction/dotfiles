@@ -36,7 +36,7 @@ TERM = "xterm-256color"
 
 [font]
 # draw_bold_text_with_bright_colors = true
-size = 10 
+size = 10.5
 
 [font.bold]
 family = "BlexMono Nerd Font"
@@ -141,7 +141,7 @@ instance = "Alacritty"
 
 [window.dimensions]
 columns = 130
-lines = 56
+lines = 48
 
 [window.padding]
 x = 0
