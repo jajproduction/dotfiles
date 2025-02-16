@@ -36,18 +36,18 @@ TERM = "xterm-256color"
 
 [font]
 # draw_bold_text_with_bright_colors = true
-size = 9
+size = 10 
 
 [font.bold]
-family = "FiraCode Nerd Font"
+family = "BlexMono Nerd Font"
 style = "Bold"
 
 [font.italic]
-family = "FiraCode Nerd Font"
+family = "BlexMono Nerd Font"
 style = "MediumItalic"
 
 [font.normal]
-family = "FiraCode Nerd Font"
+family = "BlexMono Nerd Font"
 style = "Regular"
 
 [[keyboard.bindings]]
@@ -140,7 +140,7 @@ general = "Alacritty"
 instance = "Alacritty"
 
 [window.dimensions]
-columns = 120
+columns = 130
 lines = 56
 
 [window.padding]
