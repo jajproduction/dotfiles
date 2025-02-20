@@ -1,26 +1,26 @@
 [colors.primary]
-background = "#1F1F1F"
-foreground = "#CCCCCC"
+background = '#001a1d'
+foreground = '#839496'
 
 [colors.normal]
-black   = "#000000"
-red     = "#d6181b"
-green   = "#6A9955"
-yellow  = "#e4d201"
-blue    = "#569cd6"
-magenta = "#bc3fbc"
-cyan    = "#4EC9B0"
-white   = "#e5e5e5"
+black   = '#073642'
+red     = '#dc322f'
+green   = '#859900'
+yellow  = '#b58900'
+blue    = '#268bd2'
+magenta = '#d33682'
+cyan    = '#2aa198'
+white   = '#eee8d5'
 
 [colors.bright]
-black   = "#666666"
-red     = "#ce9178"
-green   = "#b5cea8"
-yellow  = "#DCDCAA"
-blue    = "#9cdcfe"
-magenta = "#d670d6"
-cyan    = "#9cdcfe"
-white   = "#e5e5e5"
+black   = '#4c4c4c'
+red     = '#cb4b16'
+green   = '#586e75'
+yellow  = '#657b83'
+blue    = '#839496'
+magenta = '#6c71c4'
+cyan    = '#93a1a1'
+white   = '#fdf6e3'
 
 [cursor]
 blink_interval = 150
@@ -36,7 +36,7 @@ TERM = "xterm-256color"
 
 [font]
 # draw_bold_text_with_bright_colors = true
-size = 10.5
+size = 12.5
 
 [font.bold]
 family = "BlexMono Nerd Font"
