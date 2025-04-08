@@ -11,6 +11,7 @@ set -gx EDITOR vim
 set -gx VISUAL vim
 set -gx ANDROID_HOME $HOME/Android/Sdk/
 set -gx PATH $ANDROID_HOME/platform-tools $PATH
+set -gx PATH /usr/bin $PATH
 
 # theme
 set -g theme_color_scheme terminal-dark
@@ -24,21 +25,21 @@ function fish_user_key_bindings
 end
 
 function zd
-    set -l dir (find ~/Developments -mindepth 2 -maxdepth 2 -type d -print 2> /dev/null | fzf-tmux -p --reverse)
+    set -l dir (find ~/Developments/ -mindepth 2 -maxdepth 2 -type d -print 2> /dev/null | fzf-tmux -p --reverse)
     if test -n "$dir"
         cd "$dir"
     end
 end
 
-function zn
-    set -l selection (find ~/TIL -mindepth 1 -maxdepth 5 \( -type d -o -type f \) -print 2> /dev/null | fzf-tmux -p --reverse)
+function til
+    set -l selection (find ~/til/ -mindepth 1 -maxdepth 2 \( -type d -o -type f \) -print 2> /dev/null | fzf-tmux -p --reverse)
     if test -n "$selection"
         nvim "$selection"
     end
 end
 
 # aliases
-alias ls 'exa --color=always --group-directories-first --icons'
+alias ls 'exa -l --color=always --group-directories-first --icons'
 alias la 'exa -aG --color=always --group-directories-first --icons'
 alias ll 'exa -al --color=always --group-directories-first --icons'
 alias vim nvim
